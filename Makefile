@@ -1,5 +1,5 @@
 docker-user=jaredhanson11
-name=${docker-user}/flock-landing-page
+name=${docker-user}/flok-landing-page
 # latest=0.0.1
 version=0.0.1
 
