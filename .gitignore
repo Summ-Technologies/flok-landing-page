@@ -1,0 +1,10 @@
+venv
+*pyc
+__pycache__
+.vscode
+node_modules
+bower_components
+.env
+*.min.css
+*.min.js
+client/vendor/
