@@ -7565,7 +7565,8 @@ select.text-input {
 }
 @media (max-width: 1300px) {
   .nav-02 {
-    padding: 20px 0;
+    padding-top: 60px;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 900px) {
@@ -8941,6 +8942,24 @@ select.text-input {
 .header-64__left_content {
   max-width: 490px;
   padding-top: 70px;
+}
+#componentID {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+.topbar-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: #4456fc;
+}
+.topbar {
+  color: #ffffff;
+  font-weight: 500;
 }
 @media (max-width: 1250px) {
   .header-08__left_content,
