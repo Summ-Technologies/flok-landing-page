@@ -1,7 +1,7 @@
 docker-user=jaredhanson11
 name=${docker-user}/flok-landing-page
 # latest=0.0.7
-version=0.0.7
+version=0.0.8
 
 build-images:
 	docker build . -t ${name}:${version}
